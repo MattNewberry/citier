@@ -1,4 +1,4 @@
-CITIER_DEBUGGING = (::Rails.env == 'development')
+CITIER_DEBUGGING = false
 
 def citier_debug(s)
   if CITIER_DEBUGGING
